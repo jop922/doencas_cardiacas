@@ -34,7 +34,7 @@ import matplotlib.pyplot as plt
 
 # Supondo que seu dataset esteja carregado em um DataFrame chamado df
 # Exemplo de agrupamento e plotagem da frequência cardíaca máxima por faixa etária e sexo
-df['faixa_etaria'] = pd.cut(df['idade'], bins=[0, 30, 40, 50, 60, 70, 80, 90])
+df['faixa_etaria'] 	
 sns.boxplot(x='faixa_etaria', y='frequência cardíaca máxima', hue='sexo', data=df)
 plt.title('Distribuição da Frequência Cardíaca Máxima por Faixa Etária e Sexo')
 plt.xlabel('Faixa Etária')
